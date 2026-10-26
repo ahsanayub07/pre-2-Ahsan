@@ -1,0 +1,244 @@
+# One website per line. Lines starting with # are ignored.
+bbc.com
+theguardian.com
+# (0 links last run) aljazeera.com
+npr.org
+dawn.com
+techcrunch.com
+# (0 links last run) arstechnica.com
+theverge.com
+cnbc.com
+bloomberg.com
+reuters.com
+# (0 links last run) apnews.com
+nytimes.com
+# (0 links last run) washingtonpost.com
+wsj.com
+ft.com
+cnn.com
+foxnews.com
+nbcnews.com
+cbsnews.com
+# (0 links last run) abcnews.go.com
+# (0 links last run) usatoday.com
+latimes.com
+# (0 links last run) politico.com
+axios.com
+thehill.com
+huffpost.com
+vox.com
+slate.com
+# (0 links last run) theatlantic.com
+newyorker.com
+time.com
+newsweek.com
+forbes.com
+businessinsider.com
+fortune.com
+# (0 links last run) economist.com
+wired.com
+engadget.com
+# (0 links last run) gizmodo.com
+mashable.com
+zdnet.com
+cnet.com
+techradar.com
+tomshardware.com
+# (0 links last run) venturebeat.com
+thenextweb.com
+9to5mac.com
+# (0 links last run) androidauthority.com
+# (0 links last run) theregister.com
+tribune.com.pk
+thenews.com.pk
+geo.tv
+arynews.tv
+brecorder.com
+thefridaytimes.com
+nation.com.pk
+pakobserver.net
+# (0 links last run) hindustantimes.com
+# (0 links last run) timesofindia.indiatimes.com
+# (0 links last run) thehindu.com
+# (0 links last run) ndtv.com
+# (0 links last run) indianexpress.com
+# (0 links last run) scroll.in
+# (0 links last run) thewire.in
+# (0 links last run) livemint.com
+# (0 links last run) firstpost.com
+# (0 links last run) news18.com
+# (0 links last run) straitstimes.com
+scmp.com
+# (0 links last run) japantimes.co.jp
+# (0 links last run) koreaherald.com
+channelnewsasia.com
+thestar.com.my
+bangkokpost.com
+# (0 links last run) dw.com
+# (0 links last run) france24.com
+euronews.com
+independent.co.uk
+# (0 links last run) telegraph.co.uk
+dailymail.co.uk
+mirror.co.uk
+news.sky.com
+metro.co.uk
+standard.co.uk
+theconversation.com
+# (0 links last run) abc.net.au
+smh.com.au
+theage.com.au
+# (0 links last run) news.com.au
+# (0 links last run) nzherald.co.nz
+stuff.co.nz
+# (0 links last run) cbc.ca
+globalnews.ca
+theglobeandmail.com
+thestar.com
+timeslive.co.za
+news24.com
+middleeasteye.net
+haaretz.com
+# (0 links last run) timesofisrael.com
+# (0 links last run) arabnews.com
+gulfnews.com
+thenationalnews.com
+allafrica.com
+# (0 links last run) nation.africa
+premiumtimesng.com
+# (0 links last run) vanguardngr.com
+
+# ---- extra sources (added to reach 100k+) ----
+sciencedaily.com
+phys.org
+space.com
+livescience.com
+scientificamerican.com
+newscientist.com
+popsci.com
+espn.com
+bleacherreport.com
+sbnation.com
+skysports.com
+cbssports.com
+goal.com
+cricbuzz.com
+espncricinfo.com
+marketwatch.com
+investopedia.com
+fool.com
+benzinga.com
+coindesk.com
+cointelegraph.com
+decrypt.co
+macrumors.com
+9to5google.com
+androidcentral.com
+pcmag.com
+pcworld.com
+howtogeek.com
+makeuseof.com
+lifehacker.com
+techspot.com
+neowin.net
+slashdot.org
+hackaday.com
+infoq.com
+freecodecamp.org
+smashingmagazine.com
+healthline.com
+webmd.com
+medicalnewstoday.com
+everydayhealth.com
+verywellhealth.com
+menshealth.com
+eatingwell.com
+bonappetit.com
+rollingstone.com
+variety.com
+hollywoodreporter.com
+deadline.com
+billboard.com
+pitchfork.com
+ign.com
+gamespot.com
+polygon.com
+kotaku.com
+pcgamer.com
+nypost.com
+nydailynews.com
+chicagotribune.com
+bostonglobe.com
+sfchronicle.com
+denverpost.com
+miamiherald.com
+seattletimes.com
+oregonlive.com
+al.com
+cleveland.com
+mlive.com
+japantoday.com
+rappler.com
+inquirer.net
+philstar.com
+thejakartapost.com
+vietnamnews.net
+thedailystar.net
+kathmandupost.com
+balkaninsight.com
+kyivindependent.com
+themoscowtimes.com
+ukrinform.net
+eurasiareview.com
+deccanherald.com
+tribuneindia.com
+telegraphindia.com
+outlookindia.com
+thequint.com
+theprint.in
+newindianexpress.com
+punchng.com
+thecable.ng
+ghanaweb.com
+monitor.co.ug
+thecitizen.co.tz
+ewn.co.za
+iol.co.za
+dailymaverick.co.za
+mg.co.za
+pakistantoday.com.pk
+samaa.tv
+bolnews.com
+humnews.pk
+dunyanews.tv
+urdupoint.com
+theweek.com
+thedailybeast.com
+rawstory.com
+mediaite.com
+nationalreview.com
+reason.com
+theintercept.com
+propublica.org
+motherjones.com
+salon.com
+thenation.com
+jacobin.com
+commondreams.org
+democracynow.org
+treehugger.com
+grist.org
+insideclimatenews.org
+carbonbrief.org
+architecturaldigest.com
+vogue.com
+gq.com
+elle.com
+glamour.com
+cosmopolitan.com
+travelandleisure.com
+cntraveler.com
+lonelyplanet.com
+nationalgeographic.com
+smithsonianmag.com
+historyextra.com

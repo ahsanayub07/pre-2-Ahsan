@@ -1,0 +1,5 @@
+articles.db
+articles_backup.db
+articles_large.csv
+*.db
+__pycache__/

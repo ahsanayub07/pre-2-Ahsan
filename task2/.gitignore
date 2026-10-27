@@ -1,0 +1,5 @@
+articles_task2.db
+articles_task2_backup.db
+articles_task2.csv
+*.db
+__pycache__/

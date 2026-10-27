@@ -1,0 +1,4 @@
+articles_task1.db
+articles_task1_backup.db
+*.db
+__pycache__/

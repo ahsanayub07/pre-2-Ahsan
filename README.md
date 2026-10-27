@@ -1,79 +1,62 @@
 # Pre-Internship Assignments — LimeOx AI Course
 
-This repository contains my pre-internship assignments for the AI course at **LimeOx, Sargodha**. Each task focuses on developing practical skills in web scraping, data collection, database management, data preprocessing, and other areas of AI and data engineering.
+This repository contains my completed pre-internship assignments for the AI course at **LimeOx, Sargodha, Pakistan**.
+
+The projects focus on web scraping, data collection, database management, data preprocessing, and preparing structured datasets for future data analysis and AI applications.
 
 ## 📋 Project Overview
 
 | Task | Description | Status |
 |---|---|---|
-| [Task 1 — Basic News Scraper](./task1/) | Scrape approximately 1,000 news articles | Pending |
-| [Task 2 — Multi-Method News Scraper](./task2/) | Collect approximately 10,000 articles using BeautifulSoup, RSS feeds, and Selenium | Pending |
+| [Task 1 — Basic News Scraper](./task1/) | Scrape approximately 1,000 news articles | Completed |
+| [Task 2 — Multi-Method News Scraper](./task2/) | Scrape approximately 10,000 articles using BeautifulSoup, RSS feeds, and Selenium | Completed |
 | [Task 3 — Large-Scale News Scraper](./task3/) | Scrape and import 100,000+ news articles into PostgreSQL | Completed |
-| [Preprocessing Task](./preprocessing-task/) | Clean, normalize, and analyze the collected articles using Python and PostgreSQL | Completed |
-| Future Tasks | Additional assignments related to AI, data science, machine learning, and data engineering | Planned |
-
-*Note: Task 1 and Task 2 are listed for project planning and will be added when their implementations are available.*
-
----
-
-## 🗂️ Repository Structure
-
-```text
-pre_interns_2/
-│
-├── README.md
-│
-├── task1/                    # Basic news scraper (planned)
-│
-├── task2/                    # Multi-method news scraper (planned)
-│
-├── task3/                    # Large-scale news scraper and importer
-│
-├── preprocessing-task/       # Article preprocessing pipeline
-│
-└── future-tasks/             # Optional location for future assignments
-```
-
-*The structure above describes the planned organization. Some folders may not exist until their tasks are added.*
+| [Preprocessing Task](./preprocessing-task/) | Clean and normalize article data, identify duplicate article bodies, and flag suspicious text encoding | Completed |
+| Future Tasks | Additional assignments in AI, data science, machine learning, and data engineering | Planned |
 
 ---
 
 ## 📰 Task 1 — Basic News Scraper
 
-**Objective:** Build a basic news scraper that collects approximately 1,000 news articles.
+**Objective:** Develop a basic web scraper to collect approximately 1,000 news articles.
 
-**Planned learning outcomes:**
-- Understand the fundamentals of web scraping.
-- Extract article titles, URLs, publication dates, and other available information.
-- Store collected data in a structured format.
-- Handle basic scraping errors.
+**Key learning areas:**
+- Fundamentals of web scraping.
+- Extracting article titles, URLs, publication dates, and other available metadata.
+- Organizing scraped information into a structured format.
+- Handling basic scraping errors and missing data.
 
-**Status:** Pending implementation.
+**Outcome:** Completed the basic news scraping assignment.
+
+**Status:** Completed.
 
 ---
 
 ## 🌐 Task 2 — Multi-Method News Scraper
 
-**Objective:** Collect approximately 10,000 news articles using multiple data collection techniques.
+**Objective:** Collect approximately 10,000 news articles using multiple scraping and discovery techniques.
 
-**Planned technologies:**
-- BeautifulSoup for HTML parsing.
-- RSS feeds for discovering news articles.
-- Selenium for pages that require browser automation.
+**Technologies:**
+- **BeautifulSoup:** Parse HTML and extract article information.
+- **RSS feeds:** Discover news articles from feed sources.
+- **Selenium:** Automate browser interactions for pages requiring browser-based scraping.
+- **Python:** Manage the scraping workflow and process collected information.
 
-**Planned learning outcomes:**
-- Understand different web scraping techniques.
-- Combine multiple sources of article URLs.
-- Handle pagination, dynamic pages, and duplicate URLs.
-- Improve data collection and error handling.
+**Key learning areas:**
+- Working with multiple article discovery methods.
+- Extracting and organizing news data.
+- Handling different website structures and scraping challenges.
+- Reducing duplicate URLs and improving data collection.
 
-**Status:** Pending implementation.
+**Outcome:** Completed the multi-method news scraping assignment.
+
+**Status:** Completed.
 
 ---
 
-## 🗄️ Task 3 — Large-Scale News Scraper
+## 🗄️ Task 3 — Large-Scale News Scraper and PostgreSQL Importer
 
-**Objective:** Collect and import more than 100,000 news articles into a PostgreSQL database.
+**Objective:** Collect more than 100,000 news articles and store the collected data in PostgreSQL.
 
 **Technologies:**
 - Python
@@ -83,9 +66,10 @@ pre_interns_2/
 
 **Key work:**
 - Collect news articles at a large scale.
-- Extract and organize article data into structured fields.
-- Import the collected records into PostgreSQL.
-- Store article information in a database table for further analysis.
+- Extract article information into structured fields.
+- Organize the collected records for database storage.
+- Import article data into PostgreSQL.
+- Prepare the database for subsequent preprocessing and analysis.
 
 **Result:** The source database contains **100,026 articles**.
 
@@ -95,7 +79,7 @@ pre_interns_2/
 
 ## 🧹 Preprocessing Task — Article Data Cleaning
 
-**Objective:** Prepare the collected news articles for further analysis by cleaning and standardizing the data.
+**Objective:** Clean and standardize the collected article data while preserving the original source table.
 
 **Technologies:**
 - Python
@@ -106,14 +90,14 @@ pre_interns_2/
 
 **Key work:**
 - Connect Python to PostgreSQL.
-- Read article records from the original `articles` table.
+- Read records from the original `articles` table.
 - Normalize whitespace in selected text fields.
-- Generate normalized body hashes to identify duplicate article bodies.
+- Generate normalized hashes to identify duplicate article bodies.
 - Flag records with potentially suspicious text encoding.
-- Save processed records in a separate `articles_cleaned` table.
-- Preserve the original source table without modifying its data.
+- Store processed records in a separate `articles_cleaned` table.
+- Preserve the original source data without modifying it.
 
-**Initial processing results:**
+### Processing Results
 
 | Metric | Result |
 |---|---:|
@@ -125,50 +109,94 @@ pre_interns_2/
 | Rows belonging to duplicate body groups | 1,045 |
 | Rows flagged for suspicious encoding | 195 |
 
-*These results reflect the current preprocessing run. Suspicious encoding is flagged for review rather than automatically repaired. Duplicate-body counts depend on the normalization method used.*
+*These figures reflect the current preprocessing run and its normalization rules. Suspicious encoding is flagged for review rather than automatically repaired. Duplicate-body counts depend on the normalization method.*
 
-**Status:** Completed — initial preprocessing pipeline implemented and executed.
+**Outcome:** Implemented and executed the preprocessing pipeline, with cleaned records stored separately from the original source data.
+
+**Status:** Completed.
+
+---
+
+## 🗂️ Repository Structure
+
+```text
+pre_interns_2/
+│
+├── README.md
+│
+├── task1/
+│   └── Basic news scraping assignment
+│
+├── task2/
+│   └── BeautifulSoup, RSS, and Selenium scraper
+│
+├── task3/
+│   └── Large-scale news scraper and PostgreSQL importer
+│
+├── preprocessing-task/
+│   └── Article data preprocessing pipeline
+│
+└── Future assignments
+```
+
+*This is a high-level overview. The actual files and subfolders depend on the current repository structure.*
+
+---
+
+## 🛠️ Technologies Used
+
+| Category | Technologies |
+|---|---|
+| Programming Language | Python |
+| HTML Parsing | BeautifulSoup |
+| Article Discovery | RSS feeds |
+| Browser Automation | Selenium |
+| Database | PostgreSQL |
+| Database Queries | SQL |
+| Python Database Connectivity | psycopg2 |
+| Environment Configuration | python-dotenv |
+| Data Processing | Python text-processing and hashing utilities |
+| Version Control | Git and GitHub |
+
+---
+
+## 🔒 Data and Configuration
+
+- Database credentials are stored in a local `.env` file.
+- Secret configuration files should not be committed to GitHub.
+- The original article table is preserved during preprocessing.
+- Processed records are stored separately for validation and further analysis.
+- Scraping activities should respect website terms, access restrictions, and `robots.txt` policies where applicable.
 
 ---
 
 ## 🚀 Future Tasks
 
-This repository will be updated as additional pre-internship assignments are introduced.
+This repository will continue to grow as new assignments are introduced during the LimeOx AI pre-internship program.
 
-Future tasks may cover:
-- Advanced data cleaning and validation.
+Potential future areas include:
+
+- Data cleaning and validation improvements.
 - Exploratory data analysis (EDA).
+- SQL-based data analysis.
 - Data visualization and reporting.
-- SQL analysis and database optimization.
-- Machine learning fundamentals.
+- Feature engineering.
+- Machine learning fundamentals and model evaluation.
 - Natural language processing (NLP).
-- Feature engineering and model evaluation.
-- Other AI and data engineering projects.
+- Additional AI and data engineering projects.
 
-Each new assignment will be documented with its objective, technologies, implementation details, results, and completion status.
-
----
-
-## 🛠️ General Technologies
-
-Depending on the assignment, this repository may use:
-
-- **Programming:** Python
-- **Web scraping:** BeautifulSoup, RSS, Selenium
-- **Database:** PostgreSQL, SQL
-- **Data processing:** pandas and Python utilities
-- **Visualization:** Power BI, Matplotlib, or other suitable tools
-- **AI/ML:** Relevant libraries introduced in future tasks
+Each future assignment will be documented with its objective, technologies, implementation details, results, and completion status.
 
 ---
 
-## 📌 Project Goals
+## 🎯 Project Goals
 
-1. Complete practical assignments from the LimeOx AI pre-internship program.
-2. Build a structured collection of reusable projects.
-3. Develop practical skills in data collection, preprocessing, databases, and AI.
-4. Maintain clear documentation and reproducible workflows.
-5. Track progress as new tasks are added.
+1. Apply concepts learned during the AI pre-internship program.
+2. Build practical experience in web scraping and data collection.
+3. Develop database management and SQL skills.
+4. Learn how to clean, validate, and prepare real-world datasets.
+5. Maintain reproducible, well-documented projects using Git and GitHub.
+6. Extend the repository as new assignments are completed.
 
 ---
 
@@ -180,4 +208,4 @@ University of Sargodha, Pakistan
 
 ---
 
-*This repository is a work in progress and will evolve as new assignments are completed.*
+*This repository documents my pre-internship learning journey and will be updated as additional assignments are completed.*

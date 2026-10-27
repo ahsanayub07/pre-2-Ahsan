@@ -3,3 +3,6 @@ articles_backup.db
 articles_large.csv
 *.db
 __pycache__/
+.env
+importer/rejected_rows.csv
+importer/logs/

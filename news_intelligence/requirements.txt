@@ -1,0 +1,14 @@
+# Phase 2 (setup and data access). Installing these needs no GPU and no large download.
+psycopg2-binary>=2.9.9
+python-dotenv>=1.0.1
+psutil>=5.9
+pytest>=8.0
+# Only for the optional token-length check in explore.py (a tokenizer, no PyTorch needed).
+transformers>=4.40
+
+# Phase 3 will add torch (CPU build) and sentence-transformers, after your approval.
+numpy>=1.26
+# Phase 3 (BERT embeddings). Install torch first, CPU build:
+#   pip install torch --index-url https://download.pytorch.org/whl/cpu
+sentence-transformers>=3.0
+scikit-learn>=1.4

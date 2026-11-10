@@ -1,0 +1,6 @@
+# Never commit secrets or generated data
+.env
+artifacts/
+__pycache__/
+*.pyc
+.pytest_cache/
